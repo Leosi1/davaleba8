@@ -27,6 +27,7 @@
 	animation: walk 10s infinite
 
 
+
 }
 
 	
@@ -80,4 +81,25 @@
 @keyframes save {
 	0%{top: 300px}
 	100%{bottom:  180px}
+}
+
+
+
+
+.james{
+	background-image: url(../img/james.gif);
+	width: 15%;
+	height: 320px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 50%;
+
+}
+
+.james:hover {
+	left: 0px;
+	transition: all 2s ease 15s;
+
+
 }
