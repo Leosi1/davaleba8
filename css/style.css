@@ -17,7 +17,7 @@
 	background-image: url(../img/kit.gif);
 	background-size: auto; 
 	width: 20%;
-	height: 150px;
+	height: 180px;
 	margin: 220px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -99,7 +99,22 @@
 
 .james:hover {
 	left: 0px;
-	transition: all 2s ease 15s;
+	transition: all 10s ease 0.5s
 
+}
 
+.levana{
+	background-image: url(../img/levana.gif);
+	width: 15%;
+	height: 200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-top: -300px;
+	left: 50%;
+}
+
+	.levana:hover {
+	left: 0px;
+	transition: all 10s ease 0.5s
 }
